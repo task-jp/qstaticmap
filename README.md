@@ -18,3 +18,4 @@ $ ./qstaticmap -platform offscreen // or minimal on mac
 
 http://127.0.0.1:9100/?size=512x512&zoom=18&center=43.039498,141.313663&images=icon:https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png|43.039498,141.313663&labels=text:HERE|43.039498,141.313663
 
+![Alt text](./example.png?raw=true "Example")
