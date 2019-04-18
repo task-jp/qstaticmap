@@ -78,6 +78,8 @@ QImage StaticMap::Private::tile(int x, int y, int z)
 QImage StaticMap::Private::fetch(const QUrl &url)
 {
     QImage ret;
+    if (url.isLocalFile()) return ret;
+
     QString key = url.toString().toUtf8().toHex();
     if (imageCache.contains(key)) {
         ret = imageCache.value(key);
